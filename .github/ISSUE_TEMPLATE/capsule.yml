@@ -1,0 +1,32 @@
+name: "\U0001F381 캡슐 메시지"
+description: "쉬는시간 미션 — 캡슐에 메시지 한 줄 적기"
+title: "[캡슐] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: "\U0001F464 이름"
+      placeholder: "예: 정유경"
+    validations:
+      required: true
+  - type: input
+    id: dept
+    attributes:
+      label: "\U0001F3E2 부서"
+      placeholder: "예: 파트너지원팀"
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: "\U0001F389 AI 사용 첫 성공담 (한 줄)"
+      placeholder: "예: Claude로 회의록 정리 시켰는데 진짜 잘하더라구요"
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: "\U0001F4AC 강사·동료에게 한마디 (자유, 농담 OK)"
+      placeholder: "예: 옆자리 ○○님 오늘 점심 사주세요"
+    validations:
+      required: true
